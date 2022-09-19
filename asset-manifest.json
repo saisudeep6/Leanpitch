@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Leanpitch/static/css/main.a8c89137.css",
+    "main.js": "/Leanpitch/static/js/main.a0cf3e75.js",
+    "index.html": "/Leanpitch/index.html",
+    "main.a8c89137.css.map": "/Leanpitch/static/css/main.a8c89137.css.map",
+    "main.a0cf3e75.js.map": "/Leanpitch/static/js/main.a0cf3e75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8c89137.css",
+    "static/js/main.a0cf3e75.js"
+  ]
+}
