@@ -1,0 +1,429 @@
+*, ::before, ::after {
+  padding: 0;
+}
+
+body{
+  color: white;
+  background-image: url(https://productthinking.io/static/media/productbackground.db6735fc.jpg);
+  background-repeat: no-repeat;
+}
+
+.navbar{
+  padding: 0px;
+}
+
+.navbar-brand{
+  font-size: 2em;
+  font-weight: 500;
+
+}
+
+#subscribe{
+  font-weight: 500;
+  font-size: 2em;
+  padding: 15px;
+  background-color: red;
+}
+#subscribe span{
+  padding: 20px;
+}
+
+#contactus{
+  font-weight: 500;
+  font-size: 2em;
+  padding: 15px;
+}
+#contactus span{
+  padding: 20px;
+}
+
+.data{
+  position: static;
+  height: 20%;
+}
+.hide{
+  visibility: hidden;
+}
+div {
+  display: table;
+  width: 100%;
+}
+
+
+section{
+  height: 300px;
+  width: 30%;
+  display: table-cell;
+}
+
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+.App h1{
+  font-family: Lora,serif;
+  font-size: 5em;
+  color: black;
+  text-align: center;
+}
+
+
+.title-white {
+  color: white;
+}
+
+
+.innerdata{
+  font-size: 0.6em;
+
+  font-size: 1em;
+  color: white;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    flex-direction: column;
+  }
+}
+
+
+
+
+@media (max-width: 600px){
+ aside{
+  display: block;
+  height: 300px;
+  width: 100%;
+}
+
+section{
+  display: block;
+  height: 150px;
+  width: 100%;
+}
+}
+
+.wwm{
+  background-color: black;
+  text-align: center;
+  padding: 8%;
+}
+.wwm h1{
+  font-size: 5em;
+  color: yellow;
+}
+.wwm h2{
+  text-align: left;
+  font-size: 3.2em;
+}
+.wwm p{
+  text-align: left;
+  font-size: 1.3em;
+}
+
+.design p{
+  text-align: right;
+  margin-right:19% ;
+}
+.wwm #joc{
+  color: white;
+  background-color: transparent;
+  margin-top: 3%;
+  font-size: 2.2rem;
+  font-weight: 300;
+  border-radius: 30px;
+  padding: 5px 20px;
+  border: 2px solid white;
+  background-color: transparent !important;
+}
+#joc .rightarrow{
+  font-size: 1.3em;
+}
+
+
+#sb{
+  font-size: 0.7em;
+}
+
+
+table {
+  width: 100%;
+  font-size: 2.5vw;
+  margin-top: 20px;
+}
+
+tbody {
+  height: 100px;
+}
+td:nth-child(1){
+  width:20%;
+}
+td:nth-child(2){
+  width:1200%;
+}
+
+tr:nth-child(2),
+tr:nth-child(3){
+  visibility: hidden;
+}
+
+hr{
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.table tr td:nth-child(-n + 3){
+  border:5px solid #ffff00;
+  background-color: #00000075;
+}
+
+#hidden{
+  visibility: hidden;
+}
+
+th{
+  width: 25%;
+  padding: 0px;
+}
+
+td{
+  text-align: center;
+  vertical-align:top;
+}
+
+#con span{
+  display: none;
+}
+
+
+.table td, .table th{
+  padding: 0px;
+}
+
+th a{
+ display: block;
+
+}
+th a:hover{
+  background-color: yellow;color: black;
+}
+
+
+
+.ptl{
+  background-color: black;
+  padding: 8%;
+}
+
+.ptl h2{
+  color: red;
+  text-align: center;
+  font-size: 3.5em;
+  margin-bottom: 5%;
+}
+.ptl p{
+  text-align: left;
+  font-size: 1.1em;
+  margin-bottom: 10%;
+}
+
+.ptl #joc{
+  color: white;
+  background-color: red;
+  margin: 3%;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  padding: 0px 30px 0px 40px;
+  border: 2px solid white;
+}
+
+.Traningcard{
+  border-radius: 15px; 
+  text-align: left;
+  background-color: rgb(63, 103, 122);
+  width: 16rem;
+  border-radius: 5%;
+}
+
+.Traningcard #title{
+  font-size: 0.38em;
+}
+
+.upcomingT{
+width: 100%;
+background-color: rgb(41, 66, 76); 
+}
+
+
+.upt{
+  font-size: 0.5em;
+}
+.upt span{
+  font-size: 0.4em;
+}
+
+#register{
+    padding: 7px 45px 7px 45px;
+    margin: 7px 7px 0;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+
+.Trainingtable td, .Trainingtable th{
+  padding: 50px;
+}
+
+.webinar {
+  margin-top: 3%;
+  margin-bottom: 5%;
+  color: black;
+  text-align: center;
+}
+
+.webinar h1{
+  font-family: Lora,serif;
+  text-align: center;
+  font-size: 5em;
+  color: black;
+}
+.webinar .d-flex{
+  text-align: center;
+  background-color: pink;
+  width: 20%;
+  font-size: 1.5em;
+  border: 1px solid black ;
+}
+.w1{
+  background-color: black;
+  color: white;
+}
+.w2{
+background-color: white;
+}
+
+.d-flex{
+margin-top: 7%;  
+margin-bottom: 5%;  
+}
+
+.Conference {
+  margin-top: 3%;
+  color: white;
+  text-align: center;
+  background-color: black;
+}
+
+.Conference h1{
+  margin-top: 3%;
+  font-family: Lora,serif;
+  text-align: center;
+  font-size: 5em;
+}
+.Conference .d-flex{
+  text-align: center;
+  background-color: pink;
+  width: 20%;
+  font-size: 1.5em;
+  border: 1px solid white;
+}
+.Conference .con1{
+  color: black;
+  background-color: white;
+}
+.Conference .con2{
+  color: white;
+  background-color: black;
+}
+.w1,.w2{
+  cursor: pointer;
+}
+
+.Conference .d-flex{
+margin-top: 2%;  
+margin-bottom: 5%;  
+}
+
+.Conference p{
+  font-size: 1.3em;
+  padding: 10px;
+}
+
+.Conference #joc{
+  color: white;
+  background-color: red;
+  margin: 3%;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  padding: 0px 30px 0px 40px;
+  border: 2px solid white;
+}
+
+.img-card img{
+  width: 110%;
+  height: 200px;
+  transition: all .25s ease;
+} 
+
+.Videos{
+  margin-top: 2%;
+  color: black;
+  text-align: center;
+}
+.Videos .card {
+  margin: 30px auto;
+  width: 300px;
+  height: 200px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.Videos h1{
+  font-family: Lora,serif;
+  text-align: center;
+  font-size: 5em;
+}
+
+
+.Videos .row{
+  padding-left: 200px;
+}
+
